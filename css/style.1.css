@@ -1,0 +1,72 @@
+* {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    /*in questo modo, dopo la virgola, gli dico che se non trova ROBOTO utilizza l'Arial*/
+}
+
+img {
+    width: 100%;
+    /*in questo modo gli dico che l'immagine sarà grande proprio quanto il contenitore, quindi il mio DIV*/
+    max-width: 300px;
+    /*le immagini non saranno mai più grandi di 300px*/
+    height: auto;
+    /*l'altezza deve diventare della stessa altezza della pagina, quindi in automatico*/
+}
+
+header,
+footer {
+    border: 1px blue solid;
+    text-align: center;
+    color: green;
+    height: auto;
+    font-size: 2em;
+}
+
+#content {
+    /*le proprietà del div content in html*/
+    border: 2px dotted rgb(67, 86, 170);
+    background: aquamarine;
+    color: red;
+    position: relative;
+}
+
+#sideMenu {
+    /*le proprietà del div sideMenu in html*/
+    text-align: center;
+    width: 15%;
+    /*display: inline;*/
+    border: 2px rgb(228, 128, 13) solid;
+    background: rgb(236, 195, 117);
+    position: absolute;
+}
+
+#noIdea {
+    /*le proprietà del div noIdea in html*/
+    /*display: inline;*/
+    width: 70%;
+    left: 115px;
+    position: relative;
+}
+
+.withBorder {
+    /*creo una classe*/
+    border: 1px solid blue;
+    height: auto;
+    text-align: center;
+}
+
+.titolo {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1.titolo {
+    font-size: 24px;
+}
+
+
+/*#spesa>.item>img {
+    width: 300px;
+}*/
